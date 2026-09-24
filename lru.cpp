@@ -83,12 +83,14 @@ int main() {
             else if (command == "put") {
                 string key;
                 int value;
+                cout << "enter key and value (space separated): ";
                 cin >> key >> value;
                 cache.put(key, value);
                 cout << "Successfully inserted/updated [" << key << " -> " << value << "]\n";
             } 
             else if (command == "get") {
                 string key;
+                cout << "enter key to get value: ";
                 cin >> key;
                 int result = cache.get(key);
                 cout << "Result for : get(\"" << key << "\") -> " << result << endl;
@@ -103,4 +105,5 @@ int main() {
 
     return 0;
 }
+
 
