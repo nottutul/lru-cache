@@ -30,7 +30,7 @@ A high-performance C++ implementation of an **LRU (Least Recently Used) Cache** 
 
    ```
 
-3. run the program
+3. run the code
    ```bash
    lru-cache> ./lru
    ```
